@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF2E293A-7B8D-40C0-B113-E39E618D41B7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SadraPortal5</RootNamespace>
+    <AssemblyName>SadraPortal5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.aspx" />
+    <Content Include="Bootstrap\Style.css" />
+    <Content Include="Calendar.html" />
+    <Content Include="Courses.aspx" />
+    <Content Include="EvaluatingTeachers.aspx" />
+    <Content Include="Inside.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="pics%28forbuttons%29\options.jpg" />
+    <Content Include="pics\copy2.jpg" />
+    <Content Include="pics\patternback.jpg" />
+    <Content Include="pics\abstractbacktrans.png" />
+    <Content Include="pics\bandicam 2018-12-10 13-53-29-601.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 13-53-40-673.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 13-53-48-417.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 13-53-58-955.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 13-54-04-623.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 13-54-10-018.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 13-54-24-455.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 14-07-49-561.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 14-07-53-948.jpg" />
+    <Content Include="pics\bandicam 2018-12-10 14-07-57-469.jpg" />
+    <Content Include="pics\ElegantBack.jpg" />
+    <Content Include="pics\account.png" />
+    <Content Include="pics\alert.jpg" />
+    <Content Include="pics%28forbuttons%29\arrow.png" />
+    <Content Include="pics%28test%29\backbutton.png" />
+    <Content Include="pics\background2.jpg" />
+    <Content Include="pics%28test%29\background1.jpg" />
+    <Content Include="pics\background12.jpg" />
+    <Content Include="pics\bluebacktrans.png" />
+    <Content Include="pics%28forbuttons%29\cartable.jpg" />
+    <Content Include="pics%28test%29\libraryback.jpg" />
+    <Content Include="pics\elegantbacktrans.png" />
+    <Content Include="pics\librarybackdark.png" />
+    <Content Include="pics%28test%29\lock.png" />
+    <Content Include="pics\lock2.png" />
+    <Content Include="pics%28test%29\logincadre.jpg" />
+    <Content Include="pics\logincadre2.png" />
+    <Content Include="pics%28forbuttons%29\omureamuzeshi.jpg" />
+    <Content Include="pics%28forbuttons%29\passchange.jpg" />
+    <Content Include="pics\refresh.png" />
+    <Content Include="pics%28forbuttons%29\requestform.jpg" />
+    <Content Include="pics\sadralogo.png" />
+    <Content Include="pics%28test%29\universityback.jpg" />
+    <Content Include="pics%28test%29\workdesk2.jpg" />
+    <Content Include="pics\Shrug-Emoji-1.jpg" />
+    <Content Include="pics\UI-404-Pagetest.jpg" />
+    <Content Include="Professors.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Courses.aspx.cs">
+      <DependentUpon>Courses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Courses.aspx.designer.cs">
+      <DependentUpon>Courses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluatingTeachers.aspx.cs">
+      <DependentUpon>EvaluatingTeachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EvaluatingTeachers.aspx.designer.cs">
+      <DependentUpon>EvaluatingTeachers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inside.aspx.cs">
+      <DependentUpon>Inside.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inside.aspx.designer.cs">
+      <DependentUpon>Inside.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Professors.aspx.cs">
+      <DependentUpon>Professors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Professors.aspx.designer.cs">
+      <DependentUpon>Professors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49685</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49685/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

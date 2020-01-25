@@ -1,0 +1,12 @@
+D:\Projects\project ASP.net by C#\project final\SadraPortal5\SadraPortal5\SadraPortal5\bin\SadraPortal5.dll.config
+D:\Projects\project ASP.net by C#\project final\SadraPortal5\SadraPortal5\SadraPortal5\bin\SadraPortal5.dll
+D:\Projects\project ASP.net by C#\project final\SadraPortal5\SadraPortal5\SadraPortal5\bin\SadraPortal5.pdb
+D:\Projects\project ASP.net by C#\project final\SadraPortal5\SadraPortal5\SadraPortal5\obj\Debug\SadraPortal5.csprojResolveAssemblyReference.cache
+D:\Projects\project ASP.net by C#\project final\SadraPortal5\SadraPortal5\SadraPortal5\obj\Debug\SadraPortal5.dll
+D:\Projects\project ASP.net by C#\project final\SadraPortal5\SadraPortal5\SadraPortal5\obj\Debug\SadraPortal5.pdb
+D:\Projects Courses\ASP.net by C#  Projects\1\project final\SadraPortal5\SadraPortal5\SadraPortal5\bin\SadraPortal5.dll.config
+D:\Projects Courses\ASP.net by C#  Projects\1\project final\SadraPortal5\SadraPortal5\SadraPortal5\bin\SadraPortal5.dll
+D:\Projects Courses\ASP.net by C#  Projects\1\project final\SadraPortal5\SadraPortal5\SadraPortal5\bin\SadraPortal5.pdb
+D:\Projects Courses\ASP.net by C#  Projects\1\project final\SadraPortal5\SadraPortal5\SadraPortal5\obj\Debug\SadraPortal5.csprojResolveAssemblyReference.cache
+D:\Projects Courses\ASP.net by C#  Projects\1\project final\SadraPortal5\SadraPortal5\SadraPortal5\obj\Debug\SadraPortal5.dll
+D:\Projects Courses\ASP.net by C#  Projects\1\project final\SadraPortal5\SadraPortal5\SadraPortal5\obj\Debug\SadraPortal5.pdb
